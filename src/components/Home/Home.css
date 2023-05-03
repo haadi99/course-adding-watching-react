@@ -1,0 +1,26 @@
+.blog-container{
+    display: grid;
+    grid-template-columns:4fr 2fr;
+}
+
+.blogs-container{
+    margin: 50px;
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    gap: 45px;
+}
+
+
+
+@media screen and (max-width: 580px) {
+    .blog-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .blogs-container{
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+  }

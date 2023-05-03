@@ -1,0 +1,36 @@
+.cart {
+    margin: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.time {
+    width: 411px;
+    height: 80px;
+    background-color: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+}
+
+.spent {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px;
+    color: blue;
+}
+
+.bookmark {
+    margin-top: 20px;
+    padding: 20px;
+    width: 375px;
+    height: 1352px;
+    background-color: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+}
+.title{
+    padding: 10px;
+    background-color: white;
+    border-radius:8px;
+}

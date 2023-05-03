@@ -1,0 +1,72 @@
+.blog{
+    width: 845px;
+    height: 750px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.blog img{
+    width: 832px;
+    height: 450px;
+    margin: 7px;
+    border-radius: 8px;
+}
+
+.details{
+    padding:5px;
+}
+.hr{
+    margin-top:20px;
+}
+
+.user-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user img{
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+}
+.name{
+    margin-bottom:0;
+}
+.date{
+    margin-top:0;
+}
+.duration{
+    margin-right: 10px;
+}
+.btn{
+    border:0;
+}
+.hashtag{
+    color: gray;
+}
+
+@media screen and (max-width: 580px) {
+    .blog{
+        width: 400px;
+        height: 750px;
+        border-radius: 8px;
+        position: relative;
+    }
+    
+    .blog img{
+        width: 390px;
+        height: 200px;
+        margin: 7px;
+        border-radius: 8px;
+    }
+    .user img{
+        width: 60px;
+        height: 60px;
+        border-radius:50%;
+    }
+}
